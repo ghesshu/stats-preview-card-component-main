@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(233deg, 47%, 7%);
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.attribution {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px 70px 0;
+  margin: 35px;
+}
+.container img {
+  border-radius: 20px 20px 0px 0px;
+  -webkit-border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  -ms-border-radius: 20px 20px 0px 0px;
+  -o-border-radius: 20px 20px 0px 0px;
+  width: 90%;
+}
+.container .image {
+  padding: 0;
+}
+.container .textt {
+  background-color: hsl(244deg, 38%, 16%);
+}
+.container .textt h2 span {
+  color: hsl(277deg, 64%, 61%);
+}
+.container .textt p {
+  padding-top: 20px;
+  color: hsla(0deg, 0%, 100%, 0.6);
+}
+.container .textt li {
+  padding: 10px;
+}
+.container .textt li span {
+  color: hsla(0deg, 0%, 100%, 0.6);
+}
+.container div {
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .textt {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .img-2 {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .container .img-1 {
+    display: none;
+  }
+  .container .img-2 {
+    display: block;
+  }
+  .container img {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .textt {
+    width: 35%;
+  }
+}/*# sourceMappingURL=style.css.map */
